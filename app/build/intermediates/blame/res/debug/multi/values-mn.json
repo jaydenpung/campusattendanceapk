@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mn\\values-mn.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 255,
+                    "endOffset": 356
+                },
+                "from": {
+                    "file": "C:\\Users\\jay\\.android\\build-cache\\3ffa70d18655e0f701cab0d4be8a643af2affa28\\output\\res\\values-mn\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 255,
+                        "endOffset": 582
+                    }
+                }
+            }
+        ]
+    }
+]

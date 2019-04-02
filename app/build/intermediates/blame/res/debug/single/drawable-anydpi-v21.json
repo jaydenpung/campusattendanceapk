@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_schedule_black_24dp.xml",
+        "source": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_schedule_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_done_black_24dp.xml",
+        "source": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_done_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_notifications_black_24dp.xml",
+        "source": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_logout.xml",
+        "source": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\jay\\.android\\build-cache\\56bc7a3cea9c6f03e897c7bbc0cbee6c9a350d3e\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_account_box_black.xml",
+        "source": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_account_box_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_attendance.xml",
+        "source": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_attendance.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_camera_alt_black_24dp.xml",
+        "source": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_camera_alt_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\jay\\.android\\build-cache\\56bc7a3cea9c6f03e897c7bbc0cbee6c9a350d3e\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    }
+]
