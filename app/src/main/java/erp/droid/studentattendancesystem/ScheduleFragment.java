@@ -134,6 +134,7 @@ public class ScheduleFragment extends Fragment{
         }
     }
 
+    //Convert datetime to epoch
     public static Integer tsToSec8601(String timestamp) {
         if (timestamp == null) return null;
         try {

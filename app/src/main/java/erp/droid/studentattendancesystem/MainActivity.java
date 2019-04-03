@@ -4,6 +4,10 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
@@ -29,6 +33,10 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.iid.InstanceIdResult;
 import com.google.gson.Gson;
 import com.google.gson.JsonParser;
 import com.google.gson.JsonObject;
@@ -59,6 +67,8 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        checkDeviceToken();
+
         //Default to profile page
         displaySelectedScreen(R.id.nav_profile);
 
@@ -84,6 +94,78 @@ public class MainActivity extends AppCompatActivity
 
 
 
+        } catch (Exception ex) {
+            Log.e("Error", ex.getMessage());
+        }
+    }
+
+    public void checkDeviceToken() {
+        try {
+
+            SharedPreferences sharedPref = this.getApplicationContext().getSharedPreferences(
+                    "Config", this.getApplicationContext().MODE_PRIVATE);
+
+            final JSONObject authObject = new JSONObject(sharedPref.getString("AuthenticationObject", "default"));
+
+            FirebaseInstanceId.getInstance().getInstanceId()
+                    .addOnCompleteListener(new OnCompleteListener<InstanceIdResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<InstanceIdResult> task) {
+                            try {
+                                if (!task.isSuccessful()) {
+                                    return;
+                                }
+
+                                // Get new Instance ID token
+                                String deviceToken = task.getResult().getToken();
+
+                                if (!deviceToken.equals(authObject.optString("deviceToken", ""))) {
+                                    //update device token if outdated or not set
+
+                                    updateDeviceToken(deviceToken);
+                                }
+                            }
+                            catch (Exception ex) {
+                            }
+                        }
+                    });
+
+        } catch (Exception ex) {
+            Log.e("Error", ex.getMessage());
+        }
+    }
+
+    private void updateDeviceToken(final String deviceToken) {
+        try {
+            final SharedPreferences sharedPref = getApplicationContext().getSharedPreferences(
+                    "Config", getApplicationContext().MODE_PRIVATE);
+            final JSONObject authObject = new JSONObject(sharedPref.getString("AuthenticationObject", "default"));
+
+            //Make api call
+            JSONObject requestParameters = new JSONObject();
+            requestParameters.put("authenticationObject", authObject);
+            requestParameters.put("deviceToken", deviceToken);
+
+            VolleyUtils.makeJsonObjectRequest(getApplicationContext(), new ApiRoute().UPDATE_DEVICE_TOKEN, requestParameters, new VolleyResponseListener() {
+                @Override
+                public void onError(String message) {
+                }
+
+                @Override
+                public void onResponse(JSONObject response) {
+                    try {
+                        if (response.getBoolean("success")) {
+                            //Save to sharedpref if success
+                            SharedPreferences.Editor editor = sharedPref.edit();
+                            authObject.put("deviceToken", deviceToken);
+                            editor.putString("AuthenticationObject", authObject.toString());
+                            editor.commit();
+                        }
+                    } catch (Exception ex) {
+                        Log.e("Error", ex.getMessage());
+                    }
+                }
+            });
         } catch (Exception ex) {
             Log.e("Error", ex.getMessage());
         }

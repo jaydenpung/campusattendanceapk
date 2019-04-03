@@ -23,6 +23,9 @@ android {
                         {
                             cruncherEnabled = false
                         }
+                lintOptions {
+                    abortOnError false
+                }
             }
 }
 
@@ -40,4 +43,7 @@ dependencies {
     compile 'androidmads.library.qrgenearator:QRGenearator:1.0.3'
     compile 'com.journeyapps:zxing-android-embedded:3.4.0'
     implementation 'com.google.firebase:firebase-core:16.0.1'
+    implementation 'com.google.firebase:firebase-messaging:17.5.0'
 }
+
+apply plugin: 'com.google.gms.google-services'

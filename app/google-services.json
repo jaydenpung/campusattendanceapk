@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "673069689733",
+    "firebase_url": "https://campusattendance-9204a.firebaseio.com",
+    "project_id": "campusattendance-9204a",
+    "storage_bucket": "campusattendance-9204a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673069689733:android:d4843e323288081c",
+        "android_client_info": {
+          "package_name": "erp.droid.studentattendancesystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo-PWWsb5XOcZ4rFcEcVqsFk0Bh6rPMnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673069689733-n426en4jf5tp4nk7g66oqejak0gq6o86.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

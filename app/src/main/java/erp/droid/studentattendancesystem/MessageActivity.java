@@ -22,7 +22,6 @@ import java.util.HashMap;
 
 public class MessageActivity extends AppCompatActivity {
 
-    String[] bankNames={"BOI","SBI","HDFC","PNB","OBC"};
     String[] subjectsArray;
     String[] lessonsArray;
 

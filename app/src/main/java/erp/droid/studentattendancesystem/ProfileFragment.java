@@ -177,8 +177,4 @@ public class ProfileFragment extends Fragment {
             Log.e("Error", ex.getMessage());
         }
     }
-
-    public void updateForm() {
-
-    }
 }

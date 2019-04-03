@@ -99,10 +99,10 @@
             android:layout_toRightOf="@+id/tvAge"/>
 
         <TextView
-            android:id="@+id/tvEmail"
+            android:id="@+id/tvIcNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Email"
+            android:text="IC Number"
             android:textColor="#000fff"
             android:textStyle="bold" />
 
@@ -114,10 +114,10 @@
             android:layout_toRightOf="@+id/tvIcNumber"/>
 
         <TextView
-            android:id="@+id/tvIcNumber"
+            android:id="@+id/tvEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="IC Number"
+            android:text="Email"
             android:textColor="#000fff"
             android:textStyle="bold" />
 
