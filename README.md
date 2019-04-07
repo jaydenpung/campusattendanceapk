@@ -1,5 +1,6 @@
 # Campus Attendance APK
 
+TODO: Remove unneccessary files from commit 
 
 ## Getting Started
 
