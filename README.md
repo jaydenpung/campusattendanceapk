@@ -22,8 +22,8 @@ Each lesson can be clicked, displaying further details:
 
 ## Attendance
 
-For student - A summary of subjects taken by the student, along with attendance percentage (TO DATE)
-For staff - A list of student in class taught by the staff, along with each student's attendance percentage (TO DATE)
+For student - A summary of subjects taken by the student, along with attendance percentage. Also able to view each lesson attedance in timetable format of 14 weeks, where week 1 is the earliest week of all lesson regardless of subjects. (TO DATE)  
+For staff - A list of student in class taught by the staff, along with each student's attendance percentage (TO DATE)  
 *TO DATE means only include lessons today and before today
 
 ## Notification
@@ -33,6 +33,9 @@ Staff can send send message by clicking new message.
 When creating new message:
 There are two spinners: "lessons" and "subject". Only one of the spinners can be selected at the same time. If "lesson" is chosen, the message will be sent to student participating in that lesson. If "subject" is chosen, all student who have lessons in that subject will receive the message.
 
+## Floating button on bottom right
+For student - Click to start scanning QR to attend lesson  
+For staff - Click to add lesson  
 
 ## Technical explanations
     * __ApiRoute__ - List of strings that helps you with the url of api calls
@@ -51,3 +54,7 @@ There are two spinners: "lessons" and "subject". Only one of the spinners can be
     * __AttendanceFragment__ - Shows the summary of attendance of the user
     * __ScheduleFragment__ - Display list of lessons belong to the user, able to filter by date
     * __NotificationFragment__ - Shows the list of message from push notifications
+    * __MultiSelectionSpinner__ - Self implemented class ,extending spinner and implement DialogInterface to allow multi select of drop down list
+    * __AddLessonActivity__ - Activity callable by staff to create lesson
+    * __SubjectTimetableActivity__ - Show the attendance status of each lesson of a specified subject in timetable format of 14 weeks.
+    
