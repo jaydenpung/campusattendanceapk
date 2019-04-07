@@ -97,8 +97,15 @@ public class ScheduleFragment extends Fragment{
 
                                 temp.put("2", "DateTime: " + lessonObject.getString("date_time"));
                                 temp.put("3", "Subject: " + lessonObject.getString("subject_name"));
+
                                 if (authObject.getString("userType").equals("student")) {
                                     temp.put("4", "Lecturer: " + lessonObject.getString("staff_name"));
+                                    if (lessonObject.getString("attended").equals("1")) {
+                                        temp.put("5", "✔");
+                                    }
+                                    else {
+                                        temp.put("5", "✖");
+                                    }
                                 }
                                 resultList.add(temp);
                             }
@@ -107,6 +114,7 @@ public class ScheduleFragment extends Fragment{
                             CustomListViewAdapter adapter = new CustomListViewAdapter(getActivity(), resultList);
                             lview.setAdapter(adapter);
 
+                            //On click event to view lesson
                             lview.setOnItemClickListener(new AdapterView.OnItemClickListener(){
                                 @Override
                                 public void onItemClick(AdapterView<?>adapter,View v, int position, long id){
@@ -135,7 +143,8 @@ public class ScheduleFragment extends Fragment{
     }
 
     //Convert datetime to epoch
-    public static Integer tsToSec8601(String timestamp) {
+    public static Integer tsToSec8601
+    (String timestamp) {
         if (timestamp == null) return null;
         try {
             SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");

@@ -1,5 +1,6 @@
 package erp.droid.studentattendancesystem;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import org.json.JSONArray;
@@ -63,7 +65,7 @@ public class AttendanceFragment extends Fragment {
                                 JSONObject jsonObject = results.getJSONObject(i);
                                 HashMap temp = new HashMap();
 
-                                temp.put("1", "");
+                                temp.put("1", jsonObject.getString("subject_id"));
                                 if (authObject.getString("userType").equals("student")) {
                                     temp.put("2", "Subject: " + jsonObject.getString("subject_name"));
                                     temp.put("3", "Attendance(%): " + jsonObject.getString("attendance_percentage"));
@@ -80,6 +82,22 @@ public class AttendanceFragment extends Fragment {
                             ListView lview = (ListView) getView().findViewById(R.id.attendanceList);
                             CustomListViewAdapter adapter = new CustomListViewAdapter(getActivity(), resultList);
                             lview.setAdapter(adapter);
+
+                            //On click event to view attendance record for that subject, only for student
+                            if(authObject.getString("userType").equals("student")) {
+
+                                lview.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+                                    @Override
+                                    public void onItemClick(AdapterView<?>adapter,View v, int position, long id){
+                                        String subjectId = ((HashMap)adapter.getItemAtPosition(position)).get("1").toString();
+
+                                        //Open lesson detail activity
+                                        Intent intent = new Intent(getActivity(), SubjectTimetableActivity.class);
+                                        intent.putExtra("subjectId", subjectId);
+                                        getActivity().startActivity(intent);
+                                    }
+                                });
+                            }
                         } else {
                             ((MainActivity)getActivity()).Logout();
                         }

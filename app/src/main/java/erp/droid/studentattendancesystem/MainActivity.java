@@ -80,10 +80,9 @@ public class MainActivity extends AppCompatActivity
             View headerLayout = navigationView.getHeaderView(0);
             ((TextView) headerLayout.findViewById(R.id.tvUserName)).setText(authObject.getString("userId") + " - " + authObject.getString("name"));
 
+            //Bottom right floating button
+            FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
             if(authObject.getString("userType").equals("student")) {
-                //Bottom right floating button
-                FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-                fab.setVisibility(View.VISIBLE);
                 fab.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
@@ -91,12 +90,24 @@ public class MainActivity extends AppCompatActivity
                     }
                 });
             }
-
-
+            else {
+                fab.setImageResource(R.drawable.ic_add_black_24dp);
+                fab.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        addLesson();
+                    }
+                });
+            }
 
         } catch (Exception ex) {
             Log.e("Error", ex.getMessage());
         }
+    }
+
+    public void addLesson() {
+        Intent intent = new Intent(this, AddLessonActivity.class);
+        this.startActivity(intent);
     }
 
     public void checkDeviceToken() {

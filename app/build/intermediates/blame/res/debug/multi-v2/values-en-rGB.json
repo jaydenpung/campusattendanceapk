@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jay\\Documents\\workspace\\AndroidStudioProjects\\StudentAttendanceSystem\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
+            "outputFile": "C:\\Users\\jay\\Documents\\workspace\\campusattendanceapk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rGB\\values-en-rGB.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jay\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\a01b59534f842b25c30a8b30a8101dbc\\res\\values-en-rGB\\values.xml",

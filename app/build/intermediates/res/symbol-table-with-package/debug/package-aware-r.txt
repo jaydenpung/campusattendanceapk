@@ -787,6 +787,7 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_account_box_black
+drawable ic_add_black_24dp
 drawable ic_attendance
 drawable ic_camera_alt_black_24dp
 drawable ic_done_black_24dp
@@ -815,6 +816,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable sas_logo
 drawable side_nav_bar
+id FifthText
 id FirstText
 id FourthText
 id SecondText
@@ -854,8 +856,10 @@ id blocking
 id bottom
 id btSaveProfile
 id btnChangeDate
+id btnChooseDate
 id btnGenerateQrCode
 id btnNewMessage
+id btnSaveLesson
 id btnSendMessage
 id buttonPanel
 id cancel_action
@@ -945,6 +949,7 @@ id masked
 id media_actions
 id middle
 id mini
+id mssStudents
 id multiply
 id nav_attendance
 id nav_logout
@@ -1001,6 +1006,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id spacer
+id spinnerSubject
 id split_action_bar
 id spread
 id spread_inside
@@ -1026,6 +1032,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id tlSubjectTimetable
 id toolbar
 id top
 id topPanel
@@ -1042,9 +1049,13 @@ id tvLecturer
 id tvName
 id tvPassword
 id tvStaffPosition
+id tvStudent
 id tvStudentList
+id tvStudentsSelected
 id tvSubject
+id tvSubjectName
 id tvTelephoneNumber
+id tvTimetableSubjectName
 id tvUserId
 id tvUserName
 id up
@@ -1105,11 +1116,13 @@ layout abc_screen_toolbar
 layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
+layout activity_add_lesson
 layout activity_display_qr
 layout activity_lesson
 layout activity_login
 layout activity_main
 layout activity_message
+layout activity_subject_timetable
 layout content_main
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

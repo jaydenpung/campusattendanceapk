@@ -43,6 +43,7 @@ public class CustomListViewAdapter extends BaseAdapter {
         TextView txtSecond;
         TextView txtThird;
         TextView txtFourth;
+        TextView txtFifth;
     }
 
     @Override
@@ -60,6 +61,7 @@ public class CustomListViewAdapter extends BaseAdapter {
             holder.txtSecond = (TextView) convertView.findViewById(R.id.SecondText);
             holder.txtThird = (TextView) convertView.findViewById(R.id.ThirdText);
             holder.txtFourth = (TextView) convertView.findViewById(R.id.FourthText);
+            holder.txtFifth = (TextView) convertView.findViewById(R.id.FifthText);
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
@@ -70,6 +72,7 @@ public class CustomListViewAdapter extends BaseAdapter {
         holder.txtSecond.setText((CharSequence) map.get("2"));
         holder.txtThird.setText((CharSequence) map.get("3"));
         holder.txtFourth.setText((CharSequence) map.get("4"));
+        holder.txtFifth.setText((CharSequence) map.get("5"));
 
         return convertView;
     }

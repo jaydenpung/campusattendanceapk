@@ -45,41 +45,41 @@ public class MessageActivity extends AppCompatActivity {
             JSONObject requestParameters = new JSONObject();
             requestParameters.put("authenticationObject", authObject);
 
-            VolleyUtils.makeJsonObjectRequest(this.getApplicationContext(), new ApiRoute().GET_TIMETABLE, requestParameters, new VolleyResponseListener() {
-                @Override
-                public void onError(String message) {
-                    finish();
-                }
-
-                @Override
-                public void onResponse(JSONObject response) {
-                    try {
-                        if (response.getBoolean("success")) {
-
-                            final ArrayList<String> subjects = new ArrayList<String>();
-                            final ArrayList<String> lessons = new ArrayList<String>();
-
-                            JSONArray results = response.getJSONArray("data");
-                            ArrayList<HashMap> resultList = new ArrayList<HashMap>();
-
-                            //Add default none
-                            lessons.add("Send to student in Lesson");
-                            subjects.add("Send to student with Subject");
-
-                            for (int i = 0; i < results.length(); i++) {
-                                JSONObject lessonObject = results.getJSONObject(i);
-                                lessons.add(lessonObject.getString("lesson_id") + ": " + lessonObject.getString("subject_name") + " at " + lessonObject.getString("date_time"));
-                                String subject = lessonObject.getString("subject_id") + ": " + lessonObject.getString("subject_name");
-                                if (!subjects.contains(subject)) {
-                                    subjects.add(subject);
+                            VolleyUtils.makeJsonObjectRequest(this.getApplicationContext(), new ApiRoute().GET_TIMETABLE, requestParameters, new VolleyResponseListener() {
+                                @Override
+                                public void onError(String message) {
+                                    finish();
                                 }
-                            }
 
-                            subjectsArray = new String[subjects.size()];
-                            lessonsArray = new String[lessons.size()];
+                                @Override
+                                public void onResponse(JSONObject response) {
+                                    try {
+                                        if (response.getBoolean("success")) {
 
-                            subjectsArray = subjects.toArray(subjectsArray);
-                            lessonsArray = lessons.toArray(lessonsArray);
+                                            final ArrayList<String> subjects = new ArrayList<String>();
+                                            final ArrayList<String> lessons = new ArrayList<String>();
+
+                                            JSONArray results = response.getJSONArray("data");
+                                            ArrayList<HashMap> resultList = new ArrayList<HashMap>();
+
+                                            //Add default none
+                                            lessons.add("Send to student in Lesson");
+                                            subjects.add("Send to student with Subject");
+
+                                            for (int i = 0; i < results.length(); i++) {
+                                                JSONObject lessonObject = results.getJSONObject(i);
+                                                lessons.add(lessonObject.getString("lesson_id") + ": " + lessonObject.getString("subject_name") + " at " + lessonObject.getString("date_time"));
+                                                String subject = lessonObject.getString("subject_id") + ": " + lessonObject.getString("subject_name");
+                                                if (!subjects.contains(subject)) {
+                                                    subjects.add(subject);
+                                                }
+                                            }
+
+                                            subjectsArray = new String[subjects.size()];
+                                            lessonsArray = new String[lessons.size()];
+
+                                            subjectsArray = subjects.toArray(subjectsArray);
+                                            lessonsArray = lessons.toArray(lessonsArray);
 
                             //Put inside spinners
                             final Spinner subjectSpinner = (Spinner) findViewById(R.id.subjectSpinner);

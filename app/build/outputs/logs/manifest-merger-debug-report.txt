@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [com.android.support:design:25.3.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\b755dcc04b3537fbec8404b9b8aee003\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a561164d6b1965ff1a2795aee4c5f6fe\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\80ba74130d1624af9f8919a07bfb0957\AndroidManifest.xml:2:1-11:12
@@ -36,25 +36,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\jay\.gradle
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2adb2bf7416a2a4f8cd905cbbfa5139e\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\c483ce540f123af1a9eb7d5977d1a095\AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7f056cdd5a7bde385f332e3a54cfcebb\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:3:5-48
-		INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:2:1-43:12
-		INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:2:1-43:12
-		INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\92f0d1781aaf66cc2d76cc5ba9733672\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-16.0.1.aar\92f0d1781aaf66cc2d76cc5ba9733672\AndroidManifest.xml:22:5-67
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.1.aar\dd9e1d5c7c67f0866fbee8c69986b237\AndroidManifest.xml:23:5-67
@@ -64,21 +64,21 @@ MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] C:\Users\jay\.g
 MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\e9e174dbef6ea16fac27c2734143d4bd\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.1.1.aar\e9e174dbef6ea16fac27c2734143d4bd\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:8:5-71
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:8:22-68
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:6:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:9:5-71
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:7:5-71
 	android:name
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:9:22-68
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:7:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:10:5-72
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:8:5-72
 	android:name
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:10:22-69
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:8:22-69
 application
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:12:5-41:19
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:10:5-42:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\b755dcc04b3537fbec8404b9b8aee003\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\b755dcc04b3537fbec8404b9b8aee003\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a561164d6b1965ff1a2795aee4c5f6fe\AndroidManifest.xml:29:5-20
@@ -142,67 +142,75 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7f056cdd5a7bde385f332e3a54cfcebb\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7f056cdd5a7bde385f332e3a54cfcebb\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:13:9-41
 	android:icon
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:17:9-40
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:15:9-40
+activity#erp.droid.studentattendancesystem.AddLessonActivity
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:16:9-64
+	android:name
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:16:19-52
+activity#erp.droid.studentattendancesystem.SubjectTimetableActivity
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:17:9-62
+	android:name
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:17:19-59
 activity#erp.droid.studentattendancesystem.MainActivity
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:18:9-21:59
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:18:9-21:59
 	android:label
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:20:13-45
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:20:13-45
 	android:theme
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:21:13-56
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:21:13-56
 	android:name
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:19:13-41
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:19:13-41
 activity#erp.droid.studentattendancesystem.LoginActivity
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:22:9-30:20
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:22:9-30:20
 	android:label
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:24:13-45
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:24:13-45
 	android:name
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:23:13-42
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:23:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:25:13-29:29
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:26:17-69
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:26:25-66
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:28:27-74
 activity#erp.droid.studentattendancesystem.MessageActivity
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:31:9-53
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:31:9-53
 	android:name
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:31:19-50
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:31:19-50
 activity#erp.droid.studentattendancesystem.LessonActivity
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:32:9-52
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:32:9-52
 	android:name
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:32:19-49
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:32:19-49
 activity#erp.droid.studentattendancesystem.DisplayQrActivity
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:33:9-64
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:33:9-55
 	android:name
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:33:19-52
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:33:19-52
 service#erp.droid.studentattendancesystem.MyFirebaseMessagingService
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:34:9-40:19
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:35:9-41:19
 	android:stopWithTask
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:36:13-41
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:37:13-41
 	android:name
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:35:13-55
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:36:13-55
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:37:13-39:29
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:38:13-40:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:38:17-78
+ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:39:17-78
 	android:name
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml:38:25-75
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml:39:25-75
 uses-sdk
-INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:25.3.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\b755dcc04b3537fbec8404b9b8aee003\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:25.3.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\b755dcc04b3537fbec8404b9b8aee003\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a561164d6b1965ff1a2795aee4c5f6fe\AndroidManifest.xml:21:5-23:78
@@ -267,18 +275,18 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\c483ce540f123af1a9eb7d5977d1a095\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7f056cdd5a7bde385f332e3a54cfcebb\AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\7f056cdd5a7bde385f332e3a54cfcebb\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\b755dcc04b3537fbec8404b9b8aee003\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jay\Documents\workspace\AndroidStudioProjects\StudentAttendanceSystem\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jay\Documents\workspace\campusattendanceapk\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\b755dcc04b3537fbec8404b9b8aee003\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\jay\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a561164d6b1965ff1a2795aee4c5f6fe\AndroidManifest.xml:25:5-27:34

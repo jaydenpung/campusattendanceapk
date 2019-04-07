@@ -13,4 +13,7 @@ public class ApiRoute {
     public String CREATE_NOTIFICATION = this.SERVER + "api/v1/mobileapi/createNotification";
     public String GENERATE_LESSON_ATTENDANCE_QR_CODE = this.SERVER + "api/v1/mobileapi/generateLessonAttendanceQrCode";
     public String UPDATE_DEVICE_TOKEN = this.SERVER + "api/v1/mobileapi/updateDeviceToken";
+    public String GET_SUBJECT_TIMETABLE = this.SERVER + "api/v1/mobileapi/getSubjectTimetable";
+    public String GET_ADD_LESSON = this.SERVER + "api/v1/mobileapi/getLoadAddLesson";
+    public String ADD_LESSON = this.SERVER + "api/v1/mobileapi/addLesson";
 }
