@@ -4,22 +4,22 @@ TODO: Remove unneccessary files from commit
 
 ## Getting Started
 
-Gradle version 4.10.1
+Gradle version 4.10.1  
 Android Plugin Version 3.3.2
 
 ## Profile
 
-All field editable except user id and staff position
-Password field will not be updated unless changed
+All field editable except user id and staff position  
+Password field will not be updated unless changed  
 
 ## Schedule
 
-By default will show all the lessons to be participated by student/staff.
-To only show lesson belong to the user on a certain date, click the change date button and pick a date
-Each lesson can be clicked, displaying further details:
-    For student, there will be a "tick" to indicate the student has attended the class, else there will be none
-    For staff, there will be a "generate qr code" button. When clicked, a qr code will be generated and tied to that lesson. If a qr code has already been generated before, clicking the "generate qr code" button again will simply generate the same qr code.
-    Student has a floating camera button on bottom right that can be accessed from most pages. Clicking this button allow them to scan the qr code generated, indicating they have attended that lesson. If a student scan a QR code of a lesson that does not belong to the student, an "Invalid lesson" toast will appear.
+By default will show all the lessons to be participated by student/staff.  
+To only show lesson belong to the user on a certain date, click the change date button and pick a date  
+Each lesson can be clicked, displaying further details:  
+    For student, there will be a "tick" to indicate the student has attended the class, else there will be none  
+    For staff, there will be a "generate qr code" button. When clicked, a qr code will be generated and tied to that lesson. If a qr code has already been generated before, clicking the "generate qr code" button again will simply generate the same qr code.  
+    Student has a floating camera button on bottom right that can be accessed from most pages. Clicking this button allow them to scan the qr code generated, indicating they have attended that lesson. If a student scan a QR code of a lesson that does not belong to the student, an "Invalid lesson" toast will appear.  
 
 ## Attendance
 
@@ -29,10 +29,10 @@ For staff - A list of student in class taught by the staff, along with each stud
 
 ## Notification
 
-Shows a list of messages receieved through notifications. If the app is active when push notigication is sent, a toast will appear instead of a notification in notification tray
-Staff can send send message by clicking new message.
-When creating new message:
-There are two spinners: "lessons" and "subject". Only one of the spinners can be selected at the same time. If "lesson" is chosen, the message will be sent to student participating in that lesson. If "subject" is chosen, all student who have lessons in that subject will receive the message.
+Shows a list of messages receieved through notifications. If the app is active when push notigication is sent, a toast will appear instead of a notification in notification tray  
+Staff can send send message by clicking new message.  
+When creating new message:  
+There are two spinners: "lessons" and "subject". Only one of the spinners can be selected at the same time. If "lesson" is chosen, the message will be sent to student participating in that lesson. If "subject" is chosen, all student who have lessons in that subject will receive the message.  
 
 ## Floating button on bottom right
 For student - Click to start scanning QR to attend lesson  
